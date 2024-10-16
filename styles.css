@@ -1,0 +1,170 @@
+/* Umum */
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background-color: #f0f4f8;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgba(42, 157, 143, 0.9);
+  /* Hijau kehijauan dengan transparansi */
+}
+
+.navbar-brand,
+.nav-link {
+  color: #f1faee !important;
+  font-weight: 600;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #e76f51 !important;
+}
+
+/* Hero Section dengan Wallpaper Alam */
+
+.hero {
+  background-image: url("gambar2.jpg");
+  /* Ganti dengan URL gambar wallpaper alam */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hero .btn {
+  background-color: #e76f51;
+  border: none;
+  color: #fff;
+}
+
+.hero .btn:hover {
+  background-color: #f4a261;
+}
+
+/* About Section */
+
+#about {
+  background-color: rgba(241, 250, 238, 0.9);
+  /* Putih lembut dengan transparansi */
+  color: #264653;
+  padding: 3rem 0;
+}
+
+#about h2 {
+  color: #264653;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: #2a9d8f;
+}
+
+/* Itinerary Section */
+
+#itinerary {
+  background-color: rgba(233, 196, 106, 0.9);
+  /* Kuning terang dengan sedikit transparansi */
+}
+
+.itinerary-box {
+  background-color: rgba(241, 250, 238, 0.9);
+  /* Putih lembut dengan transparansi */
+  color: #333;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.itinerary-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+#itinerary h3 {
+  color: #e76f51;
+}
+
+/* Contact Section */
+
+#contact {
+  background-image: url("gambar3.jpg");
+  /* Ganti dengan wallpaper alam lain */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f1faee;
+  padding: 3rem 0;
+}
+
+#contact h2 {
+  color: #f4a261;
+}
+
+.form-control {
+  background-color: #fff;
+  border-color: #2a9d8f;
+}
+
+.form-control:focus {
+  border-color: #e76f51;
+  box-shadow: 0 0 0 0.2rem rgba(231, 111, 81, 0.25);
+}
+
+.btn-primary {
+  background-color: #e76f51;
+  border-color: #e76f51;
+}
+
+.btn-primary:hover {
+  background-color: #f4a261;
+  border-color: #f4a261;
+}
+
+/* Footer dengan Wallpaper Alam */
+
+footer {
+  background-image: url("gambar4.jpg");
+  /* Ganti dengan wallpaper alam */
+  background-size: cover;
+  background-position: center;
+  color: #f1faee;
+  padding: 2rem 0;
+}
+
+footer p {
+  margin: 0;
+  color: #e9c46a;
+}
+
+/* Responsif */
+
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+  }
+}
